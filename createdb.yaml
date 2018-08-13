@@ -5,7 +5,7 @@
       ec2_group:
         name: dbsg
         description: an example EC2 group
-        vpc_id: vpc-02ab49f306c3425ba | kubecluster.ubsdevops.tk
+        vpc_id: vpc-02ab49f306c3425ba
         region: us-east-1
         rules:
           - proto: tcp
